@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'adaband';
+  body = 'apa aja boleh';
 }
