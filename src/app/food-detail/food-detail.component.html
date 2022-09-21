@@ -1,5 +1,5 @@
 <!-- tidam menggunakan bootstrap -->
-<div *ngIf="laper">
+<!-- <div *ngIf="laper">
   <h2>{{laper.name | uppercase}} Details</h2>
   <div><span>id: </span>{{laper.id}}</div>
   <div>
@@ -9,9 +9,9 @@
   </div>
   <button (click)="goBack()">go back</button>
   <button (click)="save()">save</button>
-</div>
+</div> -->
 
-<!-- menggunakan bootstrap 
+<!-- menggunakan bootstrap -->
 <div class="pt-3 pl-4" *ngIf="laper">
   <h5 class="text-center">{{laper.name | uppercase}} Adalah Favoritku</h5>
 	<div class="form-group row">
@@ -26,4 +26,6 @@
 	      <input class="form-control" [(ngModel)]="laper.name" placeholder="name" />
 	    </div>
   	</div>
-</div> -->
+  <button (click)="goBack()">go back</button>
+  <button (click)="save()">save</button>
+</div>
